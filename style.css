@@ -37,6 +37,19 @@ header {
             font-weight: 400;
             line-height: 160%; 
         }
+        .about-item {
+            text-decoration: none;
+            color: #FFF;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 32px */
+            transition-duration: 0.3s;
+        }
+        .about-item:hover {
+            color: #c7c7c7;
+        }
         .menu-number {
             margin-right: 50px;
             font-size: 30px;
@@ -381,6 +394,7 @@ p {
         }
         .enroll-btn:hover {
             transform: scale(1.05);
+            background: #1f1937;
         }
         
     }
