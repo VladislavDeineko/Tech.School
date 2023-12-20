@@ -113,12 +113,15 @@ p {
     .container {
         padding: 100px 154px 120px 202px;
         .info-about {
+            display:flex;
+            justify-content:space-between;
+            text-align:justify;
             font-size: 30px;
             line-height: 48px;
         }
         .info-numbers {
             display: flex;
-            justify-content: left;
+            justify-content: center;
             align-items: center;
             padding-top: 60px;
             gap:50px
@@ -149,6 +152,10 @@ p {
     .container {
         background: #F9F9F9;
         padding: 0px 154px 100px 202px;
+        display:flex;
+        justify-content:center;
+        text-align:justify;
+        flex-direction: column;
         .services {
             padding-top: 60px;
             color: #141024;
@@ -159,7 +166,7 @@ p {
         }
         .services-text {
             display: flex;
-            justify-content: left;
+            justify-content: center;
             align-items: center;
             gap: 50px;
             padding-top: 60px;
@@ -194,7 +201,7 @@ p {
         }
         .trainers-block {
             display: flex;
-            justify-content: left;
+            justify-content: center;
             align-items: center;
             gap: 40px;
         }
@@ -309,7 +316,113 @@ p {
         }
         .request:hover {
             background: #b31318;
-            
+        }
+    }
+}
+
+.enroll {
+    background: #D52027;
+    margin-top: 160px;
+    .container {
+        padding: 0px 154px 0px 202px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+        margin-left: 17vh;
+        .enroll-upper {
+            color: #FFF;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 130%; /* 46.8px */
+
+        }
+        .enroll-bottom {
+            color: #FFF;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%; /* 26px */            
+        }
+        .enroll-form {
+            margin-top: 87px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding-bottom: 87px;
+        }
+        .enroll-textbox {
+            width: 400px;
+            height: 58px;
+            border-radius: 5px;
+            border: none;
+            background: #F6F6F6;
+            padding-left: 4vh;   
+        }
+        .enroll-btn {
+            width: 400px;
+            height: 58px;
+            flex-shrink: 0;
+            border-radius: 5px;
+            border: none;
+            background: #141024;
+            color: #FFF;
+            text-align: center;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            cursor: pointer;
+            transition-duration: 0.3s;
+        }
+        .enroll-btn:hover {
+            transform: scale(1.05);
+        }
+        
+    }
+}
+
+footer {
+    .container {
+        background: #141024;
+        .end-upper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 50px;
+            padding-top: 25px;
+        }
+        .footer-logo {
+            margin: 0%;
+            color: #FFF;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%; /* 48px */            
+        }
+        .end-right {
+            color: #FFF;
+            text-align: right;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 160%; /* 48px */            
+        }
+        .dog {
+            display: flex;
+            align-items: left;
+            color: rgba(255, 255, 255, 0.70);
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 25.6px */
+            padding: 5px 0px 40px 50px;
+            margin-top: -15px;
         }
     }
 }
