@@ -10,6 +10,9 @@ html {
 body {
     max-width: 100%;
 }
+.mobile-menu {
+    display: none;
+}
 
 header {
     padding-top: 30px;
@@ -78,9 +81,10 @@ p {
     background-color: #141024;
     color: #FFFFFF;
     max-height: 1025px;
+    width: 100%;
     .container {
-        padding-top: 265px;
-        padding-left: 100px;
+        padding-top: 16.5625em;
+        margin: auto;
         .introduction-block {
             display: flex;
             flex-direction: row;
@@ -471,7 +475,10 @@ footer {
 }
 
 @media (max-width: 1250px) {
-
+    .trainer {
+        width: 240px;
+        height: auto;
+    }
 }
 
 @media (max-width: 768px) {
@@ -479,6 +486,11 @@ footer {
 }
 
 @media (max-width: 576px) {
+    .mobile-menu {
+        display: flex;
+        margin-right: 20px;
+        gap: 10px;
+    }
     .menu-about {
         display: none !important;
     }
@@ -503,7 +515,8 @@ footer {
         }
     }
     .introduction-block {
-        padding-left: 12rem;
+        /* padding-left: 12rem; */
+        margin: 0 auto;
         flex-direction: column !important;
         max-width: 300px !important;
         align-items: center !important;
@@ -519,14 +532,16 @@ footer {
         padding: 22px 70px !important;
     }
     .left {
+        margin-left: -35px;
         z-index: 2;
     }
     .right {
         width: 282px !important;
         position: absolute !important;
-        left: 160px;
-        top: 310px;
+        left: auto;
+        top: 320px;
         z-index: 0 !;
+        
     }
     .main-info {
         .container {
@@ -535,6 +550,7 @@ footer {
     }
     .info-about {
         font-size: 22px !important;
+        max-width: 360px;
     }
     .info-numbers {
         flex-direction: column;
@@ -559,7 +575,7 @@ footer {
         }
     }
     .services {
-        font-size: 30px;
+        font-size: 30px !important;
         line-height: 100% !important;
         text-align: center;
     }
@@ -577,12 +593,16 @@ footer {
         }
     }
     .trainer-title {
-        font-size: 30px;
+        font-size: 30px !important  ;
         line-height: 100% !important;
         text-align: center;
     }
     .trainers-block {
         flex-direction: column;
+    }
+    .trainers-item {
+        max-width: 260px;
+
     }
     .packets {
         .container {
@@ -590,7 +610,7 @@ footer {
         }
     }
     .title {
-        font-size: 30px;
+        font-size: 30px !important;
         line-height: 100% !important;
         text-align: center;
     }
@@ -617,6 +637,13 @@ footer {
     }
     .enroll-form {
         margin-top: 20px !important;
+    }
+    .enroll-textbox {
+        width: 300px !important;
+
+    }
+    .enroll-btn {
+        width: 300px !important;
     }
     .end-upper {
         flex-direction: column;
