@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свяжитесь с нами</title>
+    <link rel="icon" href="assets/reward_success_achievement_winner_award_trophy_icon_256747.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9398fd896d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img width="150px" class="imgL" src="https://imapo.ru/img/imgr2.png">
+    <img width="150px" class="imgR" src="https://imapo.ru/img/imgr2.png">
+    <!-- -------гирлянда------- -->
+    <div id="garland" class="garland_4">
+        <div id="nums_1">1</div>
+        </div>
+         
+        <script>
+        function garland() {
+        nums = document.getElementById('nums_1').innerHTML
+        if (nums == 1) {
+        document.getElementById('garland').className = 'garland_1';
+        document.getElementById('nums_1').innerHTML = '2'
+        }
+        if (nums == 2) {
+        document.getElementById('garland').className = 'garland_2';
+        document.getElementById('nums_1').innerHTML = '3'
+        }
+        if (nums == 3) {
+        document.getElementById('garland').className = 'garland_3';
+        document.getElementById('nums_1').innerHTML = '4'
+        }
+        if (nums == 4) {
+        document.getElementById('garland').className = 'garland_4';
+        document.getElementById('nums_1').innerHTML = '1'
+        }
+        };
+         
+        setInterval(function() {
+        garland();
+        }, 600);
+        </script>
+    <!-- -------конец гирлянды------- -->
+    <section class="header">
+        <div class="menu-bar">
+            <div class="menu-logo">
+                <a href="index.html" class="logo">TECH.SCHOOL</a>
+            </div>
+            <div class="mobile-menu">
+                <a href="#"><img src="assets/phone.svg" alt=""></a>
+                <a href="secret.html"><img src="assets/burger.svg" alt=""></a>
+            </div>
+            <div class="menu-about">
+                <a href="index.html" class="about-item">На главную</a>
+            </div>
+            <div class="menu-number">
+                <span>+375 25 575-87-78</span>
+            </div>
+        </div>
+        <h2 class="contactus">Свяжитесь с нами</h2>
+    </section>
+    <!-----contact us-->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2449.8461473437346!2d26.117044676580925!3d52.118928071958756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4727a356af17a2df%3A0x31d84a291cd5556a!2z0J_QvtC70LXRgdCT0KMuINCa0L7RgNC_0YPRgSDihJYzINC40LzQtdC90Lgg0LHQtdGB0LrQvtC90LXRh9C90L7QuSDRg9C70YzRgtGLINC80L7RgNGC0LjRgdCw!5e0!3m2!1sru!2sby!4v1704205668157!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div> 
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>ул. Пушкина 4</h5>
+                        <p>Пинск, Беларусь</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+375 25 575-87-78</h5>
+                        <p>С понедельника по субботу, с 9 утра до 18 вечера</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Отправьте нам свой запрос по электронной почте</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.PHP" method="post">
+                  <input type="text" name="name" for="name" placeholder="Ваш никнейм" required>
+                  <input type="email" name="email" for="email" placeholder="Ваша почта" required>
+                  <input type="text" name="subject" for="subject" placeholder="Заголовок" required>
+                  <textarea rows="8" name="message" for="message" placeholder="Сообщение"></textarea>
+                  <button type="submit" class="hero-btn red-btn">Отправить сообщение</button>
+                </form>                
+            </div>
+        </div>
+    </section>
+    
+
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="end">
+            <div class="end-upper">
+                <p class="footer-logo">TECH.SCHOOL</p>
+                <p class="end-right">+375 25 575-87-78</p>
+            </div>
+            <div class="dog">© TECH.SCHOOL</div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
