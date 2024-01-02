@@ -10,6 +10,19 @@ html {
 body {
     max-width: 100%;
 }
+.imgL {
+    position: absolute;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+}
+.imgR {
+    position: absolute;
+    z-index: 99;
+    top: 0px;
+    right: 0px;
+    transform: rotateY(180deg);
+}
 .mobile-menu {
     display: none;
 }
@@ -825,3 +838,34 @@ footer {
         padding: 35px 0px 40px 0px !important;
     }
 }
+   /* -------гирлянда ------------*/
+#garland {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('/assets/christmas.png');
+    height: 36px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 98
+    }
+     
+    #nums_1 {
+    padding: 100px
+    }
+     
+    .garland_1 {
+    background-position: 0 0
+    }
+     
+    .garland_2 {
+    background-position: 0 -36px
+    }
+     
+    .garland_3 {
+    background-position: 0 -72px
+    }
+     
+    .garland_4 {
+    background-position: 0 -108px
+    }
