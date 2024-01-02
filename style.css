@@ -480,9 +480,173 @@ footer {
         height: auto;
     }
 }
+@media (max-width: 1000px) {
+    .mobile-menu {
+        display: flex;
+        margin-right: 90px;
+        gap: 10px;
+    }
+    .menu-about {
+        display: none !important;
+    }
+    .menu-number {
+        display: none !important;
+    }
+    .logo {
+        font-size: 20px !important;
+        margin-left: 90px !important;
+    }
+    .right {
+        width: 370px !important;
+        bottom: -10px !important;
+    }
+    .trainers-block {
+        flex-direction: column;
+    }
+    .packet {
+        flex-direction: column;
+    }
+}
+@media (max-width: 896px) {
+    .right {
+        bottom: -3px !important;
+    }
+    h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    .introduction {
+        .container {
+            padding-left: 20px;
+            .courses {
+                font-size: 16px !important;
+            }
+        }
+    }
+    .enroll {
+        .container {
+            padding: 60px 10px 0px 10px;
+            flex-direction: column;
+            gap: 40px;
+            margin: 0px;
+        }
+    }
+    .enr-bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .enroll-upper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .enroll-form {
+        margin-top: 20px !important;
+    }
+    .enroll-textbox {
+        width: 300px !important;
 
-@media (max-width: 768px) {
+    }
+    .enroll-btn {
+        width: 300px !important;
+    }
+    .end-upper {
+        flex-direction: column;
+        padding-top: 45px;
+    }
 
+}
+
+@media (max-width: 720px) {
+    .introduction {
+        max-height: 720px;
+    }
+    .introduction-block {
+        /* padding-left: 12rem; */
+        margin: 0 auto;
+        flex-direction: column !important;
+        max-width: 300px !important;
+        align-items: center !important;
+        text-align: center;
+        .courses {
+            font-size: 16px !important;
+        }
+    }
+    .button-enroll {
+        margin-top: 300px !important;
+        width: 300px !important;
+        height: 60px;
+        padding: 22px 70px !important;
+    }
+    .left {
+        margin-left: -35px;
+        z-index: 2;
+    }
+    .right {
+        width: 282px !important;
+        position: absolute !important;
+        left: auto;
+        top: 345px;
+        z-index: 0 !;
+        
+    }
+    .info-about {
+        margin: 0 !important;
+    }
+    .info-numbers {
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .numbers-item {
+        align-items: center !important;
+        flex-direction: column;
+    }
+    .item-num {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80px !important;
+    }
+    .services {
+        font-size: 40px !important;
+        line-height: 100% !important;
+        text-align: center;
+    }
+    .services-text {
+        flex-direction: column;
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px !important;
+        line-height: 100% !important;
+        text-align: center;
+    }
+    .trainers {
+        .container {
+            padding: 40px 50px 45px 50px;
+        }
+    }
+    .trainer-title {
+        font-size: 40px !important  ;
+        line-height: 100% !important;
+        text-align: center;
+    }
+    .trainers-block {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .trainers-item {
+        min-width: 300px;
+    }
+    .dog {
+        justify-content: center;
+        align-items: center !important;
+        padding: 35px 0px 40px 0px !important;
+    }
 }
 
 @media (max-width: 576px) {
