@@ -10,12 +10,14 @@ html {
 body {
     max-width: 100%;
 }
+
 .imgL {
     position: absolute;
     z-index: 99;
     top: 0px;
     left: 0px;
 }
+
 .imgR {
     position: absolute;
     z-index: 99;
@@ -23,16 +25,19 @@ body {
     right: 0px;
     transform: rotateY(180deg);
 }
+
 .mobile-menu {
     display: none;
 }
 
 header {
     padding-top: 30px;
-    .menu-bar{  
+
+    .menu-bar {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         .menu-logo {
             .logo {
                 text-decoration: none;
@@ -44,6 +49,7 @@ header {
                 color: #FFF;
             }
         }
+
         .menu-about {
             display: flex;
             justify-content: space-between;
@@ -51,8 +57,9 @@ header {
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
-            line-height: 160%; 
+            line-height: 160%;
         }
+
         .about-item {
             text-decoration: none;
             color: #FFF;
@@ -60,12 +67,15 @@ header {
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
-            line-height: 160%; /* 32px */
+            line-height: 160%;
+            /* 32px */
             transition-duration: 0.3s;
         }
+
         .about-item:hover {
             color: #c7c7c7;
         }
+
         .menu-number {
             margin-right: 50px;
             font-size: 30px;
@@ -82,6 +92,7 @@ h1 {
     font-weight: 600;
     line-height: 160%;
 }
+
 p {
     font-size: 20px;
     font-style: normal;
@@ -95,20 +106,24 @@ p {
     color: #FFFFFF;
     max-height: 1025px;
     width: 100%;
+
     .container {
         padding-top: 16.5625em;
         margin: auto;
+
         .introduction-block {
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
+
             .left {
                 position: relative;
                 bottom: 370px;
                 left: 1vw;
             }
-            .button-enroll{
+
+            .button-enroll {
                 display: inline-flex;
                 background-color: #D52027;
                 color: #FFFFFF;
@@ -125,10 +140,12 @@ p {
                 transition-duration: 0.3s;
                 margin-top: 49px;
             }
+
             .button-enroll:hover {
                 background-color: rgb(255, 100, 4);
                 transform: scale(1.1);
             }
+
             .right {
                 width: 796px;
                 height: 859px;
@@ -142,20 +159,23 @@ p {
 .main-info {
     .container {
         padding: 100px 154px 120px 202px;
+
         .info-about {
-            display:flex;
-            justify-content:space-between;
-            text-align:justify;
+            display: flex;
+            justify-content: space-between;
+            text-align: justify;
             font-size: 30px;
             line-height: 48px;
         }
+
         .info-numbers {
             display: flex;
             justify-content: center;
             align-items: center;
             padding-top: 60px;
-            gap:50px
+            gap: 50px
         }
+
         .numbers-item {
             display: flex;
             justify-content: center;
@@ -163,18 +183,21 @@ p {
             flex-direction: column;
             gap: 20px
         }
+
         .item-num {
             color: #D52027;
             font-size: 70px;
             font-weight: 600;
             line-height: 160%;
         }
+
         .item-text {
             color: rgba(20, 16, 36, 0.70);
             font-size: 18px;
             font-weight: 400;
             line-height: 160%;
         }
+
         .info-about {
             margin-left: 5vh;
         }
@@ -185,10 +208,11 @@ p {
     .container {
         background: #F9F9F9;
         padding: 0px 154px 100px 202px;
-        display:flex;
-        justify-content:center;
-        text-align:justify;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
         flex-direction: column;
+
         .services {
             padding-top: 60px;
             color: #141024;
@@ -197,6 +221,7 @@ p {
             font-weight: 600;
             line-height: 160%;
         }
+
         .services-text {
             display: flex;
             justify-content: center;
@@ -204,6 +229,7 @@ p {
             gap: 50px;
             padding-top: 60px;
         }
+
         .title {
             color: #141024;
             font-size: 24px;
@@ -211,6 +237,7 @@ p {
             font-weight: 600;
             line-height: 160%;
         }
+
         .text {
             color: rgba(20, 16, 36, 0.70);
             font-size: 18px;
@@ -224,6 +251,7 @@ p {
 .trainers {
     .container {
         padding: 120px 154px 0px 202px;
+
         .trainer-title {
             color: #141024;
             font-size: 50px;
@@ -232,35 +260,43 @@ p {
             line-height: 160%;
             padding-bottom: 60px;
         }
+
         .trainers-block {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 40px;
         }
+
         .trainer-name {
             color: #141024;
             font-size: 24px;
             font-style: normal;
             font-weight: 600;
-            line-height: 160%; /* 38.4px */
+            line-height: 160%;
+            /* 38.4px */
         }
+
         .trainer-status {
             color: rgba(20, 16, 36, 0.70);
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
-            line-height: 160%; /* 28.8px */
+            line-height: 160%;
+            /* 28.8px */
         }
+
         .more {
             text-decoration: none;
             color: #D52027;
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
-            line-height: 160%; /* 28.8px */
+            line-height: 160%;
+            /* 28.8px */
             transition-duration: 0.3s;
         }
+
         .more:hover {
             text-decoration: underline;
         }
@@ -270,20 +306,24 @@ p {
 .packets {
     .container {
         padding: 160px 154px 0px 202px;
+
         .title {
             color: #141024;
             font-size: 50px;
             font-style: normal;
             font-weight: 600;
-            line-height: 160%; /* 80px */
+            line-height: 160%;
+            /* 80px */
             padding-bottom: 60px;
         }
+
         .packet {
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 40px;
         }
+
         .packet-item {
             border-radius: 20px;
             border: 1px solid rgba(20, 16, 36, 0.20);
@@ -294,46 +334,58 @@ p {
             padding: 40px;
             transition-duration: 0.3s;
         }
+
         .black {
             background: #141024;
+
             .name {
                 color: #FFF;
             }
+
             .price {
                 color: #FFF;
             }
+
             .descr {
                 color: #FFF;
             }
         }
+
         .packet-item:hover {
             transform: scale(1.1);
         }
+
         .name {
             color: #141024;
             text-align: center;
             font-size: 30px;
             font-style: normal;
             font-weight: 600;
-            line-height: 160%; /* 48px */
+            line-height: 160%;
+            /* 48px */
         }
+
         .price {
             color: #141024;
             text-align: center;
             font-size: 50px;
             font-style: normal;
             font-weight: 600;
-            line-height: 160%; /* 80px */
+            line-height: 160%;
+            /* 80px */
         }
+
         .descr {
             color: #141024;
             text-align: center;
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
-            line-height: 160%; /* 28.8px */
+            line-height: 160%;
+            /* 28.8px */
             padding-bottom: 42px;
         }
+
         .request {
             padding: 25px 54px;
             border-radius: 5px;
@@ -343,10 +395,12 @@ p {
             font-size: 18px;
             font-style: normal;
             font-weight: 400;
-            line-height: 160%; /* 28.8px */
+            line-height: 160%;
+            /* 28.8px */
             transition-duration: 0.3s;
             border: none;
         }
+
         .request:hover {
             background: #b31318;
         }
@@ -356,6 +410,7 @@ p {
 .enroll {
     background: #D52027;
     margin-top: 160px;
+
     .container {
         padding: 0px 154px 0px 202px;
         display: flex;
@@ -364,21 +419,26 @@ p {
         align-items: center;
         gap: 120px;
         margin-left: 17vh;
+
         .enroll-upper {
             color: #FFF;
             font-size: 36px;
             font-style: normal;
             font-weight: 600;
-            line-height: 130%; /* 46.8px */
+            line-height: 130%;
+            /* 46.8px */
 
         }
+
         .enroll-bottom {
             color: #FFF;
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
-            line-height: 130%; /* 26px */            
+            line-height: 130%;
+            /* 26px */
         }
+
         .enroll-form {
             margin-top: 87px;
             display: flex;
@@ -388,14 +448,16 @@ p {
             gap: 10px;
             padding-bottom: 87px;
         }
+
         .enroll-textbox {
             width: 400px;
             height: 58px;
             border-radius: 5px;
             border: none;
             background: #F6F6F6;
-            padding-left: 4vh;   
+            padding-left: 4vh;
         }
+
         .enroll-btn {
             width: 400px;
             height: 58px;
@@ -412,17 +474,19 @@ p {
             cursor: pointer;
             transition-duration: 0.3s;
         }
+
         .enroll-btn:hover {
             transform: scale(1.05);
             background: #1f1937;
         }
-        
+
     }
 }
 
 footer {
     .container {
         background: #141024;
+
         .end-upper {
             display: flex;
             justify-content: space-between;
@@ -430,22 +494,27 @@ footer {
             padding: 0px 50px;
             padding-top: 25px;
         }
+
         .footer-logo {
             margin: 0%;
             color: #FFF;
             font-size: 26px;
             font-style: normal;
             font-weight: 700;
-            line-height: 160%; /* 48px */            
+            line-height: 160%;
+            /* 48px */
         }
+
         .end-right {
             color: #FFF;
             text-align: right;
             font-size: 26px;
             font-style: normal;
             font-weight: 600;
-            line-height: 160%; /* 48px */            
+            line-height: 160%;
+            /* 48px */
         }
+
         .dog {
             display: flex;
             align-items: left;
@@ -454,7 +523,8 @@ footer {
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
-            line-height: 160%; /* 25.6px */
+            line-height: 160%;
+            /* 25.6px */
             padding: 5px 0px 40px 50px;
             margin-top: -15px;
         }
@@ -465,23 +535,28 @@ footer {
     .introduction {
         max-height: 768px;
     }
+
     .right {
         width: 500px !important;
         height: auto !important;
         bottom: 106px !important;
     }
+
     .left {
         bottom: 220px !important;
         left: 1em !important;
     }
+
     .item-num {
         font-size: 50px !important;
     }
+
     .enroll {
         .container {
             padding: 0px 154px 0px 122px;
         }
     }
+
     .services-text-item {
         max-width: 320px !important;
     }
@@ -493,49 +568,61 @@ footer {
         height: auto;
     }
 }
+
 @media (max-width: 1000px) {
     .mobile-menu {
         display: flex;
         margin-right: 90px;
         gap: 10px;
     }
+
     .menu-about {
         display: none !important;
     }
+
     .menu-number {
         display: none !important;
     }
+
     .logo {
         font-size: 20px !important;
         margin-left: 90px !important;
     }
+
     .right {
         width: 370px !important;
         bottom: -10px !important;
     }
+
     .trainers-block {
         flex-direction: column;
     }
+
     .packet {
         flex-direction: column;
     }
 }
+
 @media (max-width: 896px) {
     .right {
         bottom: -3px !important;
     }
+
     h1 {
         text-align: center;
         font-size: 40px;
     }
+
     .introduction {
         .container {
             padding-left: 20px;
+
             .courses {
                 font-size: 16px !important;
             }
         }
     }
+
     .enroll {
         .container {
             padding: 60px 10px 0px 10px;
@@ -544,26 +631,32 @@ footer {
             margin: 0px;
         }
     }
+
     .enr-bottom {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .enroll-upper {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .enroll-form {
         margin-top: 20px !important;
     }
+
     .enroll-textbox {
         width: 300px !important;
 
     }
+
     .enroll-btn {
         width: 300px !important;
     }
+
     .end-upper {
         flex-direction: column;
         padding-top: 45px;
@@ -575,6 +668,7 @@ footer {
     .introduction {
         max-height: 720px;
     }
+
     .introduction-block {
         /* padding-left: 12rem; */
         margin: 0 auto;
@@ -582,53 +676,64 @@ footer {
         max-width: 300px !important;
         align-items: center !important;
         text-align: center;
+
         .courses {
             font-size: 16px !important;
         }
     }
+
     .button-enroll {
         margin-top: 300px !important;
         width: 300px !important;
         height: 60px;
         padding: 22px 70px !important;
     }
+
     .left {
         margin-left: -35px;
         z-index: 2;
     }
+
     .right {
         width: 282px !important;
         position: absolute !important;
         left: auto;
         top: 345px;
         z-index: 0 !;
-        
+
     }
+
     .info-about {
         margin: 0 !important;
     }
+
     .info-numbers {
         flex-direction: column;
         padding-bottom: 30px;
     }
+
     .numbers-item {
         align-items: center !important;
         flex-direction: column;
     }
+
     .item-num {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 80px !important;
     }
+
     .services {
         font-size: 40px !important;
         line-height: 100% !important;
         text-align: center;
     }
+
     .services-text {
         flex-direction: column;
     }
+
     .title {
         display: flex;
         justify-content: center;
@@ -637,24 +742,29 @@ footer {
         line-height: 100% !important;
         text-align: center;
     }
+
     .trainers {
         .container {
             padding: 40px 50px 45px 50px;
         }
     }
+
     .trainer-title {
-        font-size: 40px !important  ;
+        font-size: 40px !important;
         line-height: 100% !important;
         text-align: center;
     }
+
     .trainers-block {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .trainers-item {
         min-width: 300px;
     }
+
     .dog {
         justify-content: center;
         align-items: center !important;
@@ -668,16 +778,20 @@ footer {
         margin-right: 20px;
         gap: 10px;
     }
+
     .menu-about {
         display: none !important;
     }
+
     .menu-number {
         display: none !important;
     }
+
     .logo {
         font-size: 20px !important;
         margin-left: 20px !important;
     }
+
     h1 {
         text-align: center;
         font-size: 30px;
@@ -686,11 +800,13 @@ footer {
     .introduction {
         .container {
             padding-left: 30px;
+
             .courses {
                 font-size: 16px !important;
             }
         }
     }
+
     .introduction-block {
         /* padding-left: 12rem; */
         margin: 0 auto;
@@ -698,102 +814,124 @@ footer {
         max-width: 300px !important;
         align-items: center !important;
         text-align: center;
+
         .courses {
             font-size: 16px !important;
         }
     }
+
     .button-enroll {
         margin-top: 300px !important;
         width: 300px !important;
         height: 60px;
         padding: 22px 70px !important;
     }
+
     .left {
         margin-left: -35px;
         z-index: 2;
     }
+
     .right {
         width: 282px !important;
         position: absolute !important;
         left: auto;
         top: 320px;
         z-index: 0 !;
-        
+
     }
+
     .main-info {
         .container {
             padding: 60px 10px 0px 10px;
         }
     }
+
     .info-about {
         font-size: 22px !important;
         max-width: 360px;
     }
+
     .info-numbers {
         flex-direction: column;
         padding-bottom: 30px;
     }
+
     .numbers-item {
         align-items: center !important;
         flex-direction: column;
     }
+
     .item-num {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 80px !important;
     }
+
     .item-text {
         font-size: 22px !important;
     }
+
     .advantages {
         .container {
             padding: 40px 50px 45px 50px;
         }
     }
+
     .services {
         font-size: 30px !important;
         line-height: 100% !important;
         text-align: center;
     }
+
     .services-text {
         flex-direction: column;
     }
+
     .title {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .trainers {
         .container {
             padding: 40px 50px 45px 50px;
         }
     }
+
     .trainer-title {
-        font-size: 30px !important  ;
+        font-size: 30px !important;
         line-height: 100% !important;
         text-align: center;
     }
+
     .trainers-block {
         flex-direction: column;
     }
+
     .trainers-item {
         max-width: 260px;
 
     }
+
     .packets {
         .container {
             padding: 60px 10px 0px 10px;
         }
     }
+
     .title {
         font-size: 30px !important;
         line-height: 100% !important;
         text-align: center;
     }
+
     .packet {
         flex-direction: column;
     }
+
     .enroll {
         .container {
             padding: 60px 10px 0px 10px;
@@ -802,43 +940,53 @@ footer {
             margin: 0px;
         }
     }
+
     .enr-bottom {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .enroll-upper {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .enroll-form {
         margin-top: 20px !important;
     }
+
     .enroll-textbox {
         width: 300px !important;
 
     }
+
     .enroll-btn {
         width: 300px !important;
     }
+
     .end-upper {
         flex-direction: column;
         padding-top: 45px;
     }
+
     .footer-logo {
         font-size: 20px !important;
     }
+
     .end-right {
         font-size: 18px !important;
     }
+
     .dog {
         justify-content: center;
         align-items: center !important;
         padding: 35px 0px 40px 0px !important;
     }
 }
-   /* -------гирлянда ------------*/
+
+/* -------гирлянда ------------*/
 #garland {
     position: absolute;
     top: 0;
@@ -848,24 +996,24 @@ footer {
     width: 100%;
     overflow: hidden;
     z-index: 98
-    }
-     
-    #nums_1 {
+}
+
+#nums_1 {
     padding: 100px
-    }
-     
-    .garland_1 {
+}
+
+.garland_1 {
     background-position: 0 0
-    }
-     
-    .garland_2 {
+}
+
+.garland_2 {
     background-position: 0 -36px
-    }
-     
-    .garland_3 {
+}
+
+.garland_3 {
     background-position: 0 -72px
-    }
-     
-    .garland_4 {
+}
+
+.garland_4 {
     background-position: 0 -108px
-    }
+}
