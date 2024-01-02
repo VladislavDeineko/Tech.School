@@ -788,7 +788,9 @@ footer {
         margin-right: 20px;
         gap: 10px;
     }
-
+    .imgR {
+        display: none;
+    }
     .menu-about {
         display: none !important;
     }
@@ -1144,4 +1146,12 @@ footer {
 .red-btn:hover{
     color:#fff;
 
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .row{
+        flex-direction: column;
+    }
 }
