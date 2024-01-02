@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
 </head>
 <body>
     <section class="introduction">
@@ -183,5 +184,25 @@
             </div>
         </div>
     </footer>
+    <script src="/snow/jSnow.js"></script>
+
+<script>
+
+	$(document).ready(function() {
+
+		$("body").jSnow({
+			vSize: 760, // Размер области
+			flakes: 30, // Количество снежинок
+			flakeColor: ["#fff"], // Цвет
+			flakeMinSize: 10, // Минимальный размер снежинки
+			flakeMaxSize: 20, // Максимальный размер снежинки
+			fallingSpeedMin: 1, // Минимальная скорость снежинки
+			fallingSpeedMax: 2, // Максимальная скорость снежинки
+			flakeCode:["&bull;"] // Вид снежинки
+		});
+
+	});
+
+</script>
 </body>
 </html>
