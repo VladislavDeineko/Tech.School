@@ -604,6 +604,12 @@ footer {
 }
 
 @media (max-width: 896px) {
+    .imgL {
+        width: 100px;
+    }
+    .imgR {
+        width: 100px;
+    }
     .right {
         bottom: -3px !important;
     }
@@ -991,7 +997,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url('/assets/christmas.png');
+    background-image: url('assets/christmas.png');
     height: 36px;
     width: 100%;
     overflow: hidden;
